@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration:solid;
+    color:brown;
+    
+}
+.картинка{
+    position: relative;
+    width: 100%;
+}
+h2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eabf37;
+    width: 44 px;
+}
+p{
+    font-family: MontserratRegular;
+    padding-left: 50px;
+    padding-right: 100px;
+    text-align: justify;
+}
+#РанниеГоды{
+    background-color: aliceblue;
+    text-align: left;
+}
+#НачалоКарьеры{
+    background-color:antiquewhite;
+    text-align: right;
+}
+details > summary{
+    padding: 5px;
+    background-color: #eabf37;
+    border: 1px #ccc solid
+    cursor: pointer;
+}
+details[open] > summary{
+    color: #eabf37;
+}
